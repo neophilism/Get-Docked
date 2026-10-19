@@ -1,0 +1,835 @@
+{
+  "schemaVersion": 1,
+  "repository": "neophilism/Get-Docked",
+  "title": "Get Docked",
+  "roadmapVersion": 1,
+  "planVerified": true,
+  "plannedPrCount": 37,
+  "observedAt": "2026-10-19T18:19:00Z",
+  "sourceFiles": [
+    "docs/DEVELOPMENT_PLAN.md",
+    "AGENTS.md"
+  ],
+  "units": [
+    {
+      "id": "GD-001",
+      "title": "App repository architecture and deferred plan",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Foundation",
+      "dependsOn": [],
+      "scope": [
+        "App repository architecture and deferred plan"
+      ],
+      "acceptanceCriteria": "Complete app repository architecture and deferred plan functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "Engine production verified, all SME units accepted and tagged signed release; initial foundation PR alone exempt"
+      ]
+    },
+    {
+      "id": "GD-002",
+      "title": "Boat ownership sharing",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-001"
+      ],
+      "scope": [
+        "Boat ownership sharing"
+      ],
+      "acceptanceCriteria": "Complete boat ownership sharing functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-003",
+      "title": "Hull engine equipment registry",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-002"
+      ],
+      "scope": [
+        "Hull engine equipment registry"
+      ],
+      "acceptanceCriteria": "Complete hull engine equipment registry functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-004",
+      "title": "Vessel documents vault",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-003"
+      ],
+      "scope": [
+        "Vessel documents vault"
+      ],
+      "acceptanceCriteria": "Complete vessel documents vault functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-005",
+      "title": "Service history timeline",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-004"
+      ],
+      "scope": [
+        "Service history timeline"
+      ],
+      "acceptanceCriteria": "Complete service history timeline functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-006",
+      "title": "Marina boatyard facilities",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-005"
+      ],
+      "scope": [
+        "Marina boatyard facilities"
+      ],
+      "acceptanceCriteria": "Complete marina boatyard facilities functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-007",
+      "title": "Marine category service locations",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-006"
+      ],
+      "scope": [
+        "Marine category service locations"
+      ],
+      "acceptanceCriteria": "Complete marine category service locations functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-008",
+      "title": "Weather tides data adapters",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-007"
+      ],
+      "scope": [
+        "Weather tides data adapters"
+      ],
+      "acceptanceCriteria": "Complete weather tides data adapters functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-009",
+      "title": "Vessel facility compatibility",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Marine domain",
+      "dependsOn": [
+        "GD-008"
+      ],
+      "scope": [
+        "Vessel facility compatibility"
+      ],
+      "acceptanceCriteria": "Complete vessel facility compatibility functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-010",
+      "title": "Responsive marine discovery web",
+      "origin": "original",
+      "prs": [],
+      "priority": "P0",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-009"
+      ],
+      "scope": [
+        "Responsive marine discovery web"
+      ],
+      "acceptanceCriteria": "Complete responsive marine discovery web functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-011",
+      "title": "Provider profiles search UX",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-010"
+      ],
+      "scope": [
+        "Provider profiles search UX"
+      ],
+      "acceptanceCriteria": "Complete provider profiles search ux functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-012",
+      "title": "Marine service intake forms",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-011"
+      ],
+      "scope": [
+        "Marine service intake forms"
+      ],
+      "acceptanceCriteria": "Complete marine service intake forms functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-013",
+      "title": "Job Room marine UI",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-012"
+      ],
+      "scope": [
+        "Job Room marine UI"
+      ],
+      "acceptanceCriteria": "Complete job room marine ui functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-014",
+      "title": "Scheduling calendar UX",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-013"
+      ],
+      "scope": [
+        "Scheduling calendar UX"
+      ],
+      "acceptanceCriteria": "Complete scheduling calendar ux functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-015",
+      "title": "Payments external option UX",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-014"
+      ],
+      "scope": [
+        "Payments external option UX"
+      ],
+      "acceptanceCriteria": "Complete payments external option ux functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-016",
+      "title": "Provider dashboard CRM UX",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-015"
+      ],
+      "scope": [
+        "Provider dashboard CRM UX"
+      ],
+      "acceptanceCriteria": "Complete provider dashboard crm ux functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-017",
+      "title": "Subscriptions coupons ads UX",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-016"
+      ],
+      "scope": [
+        "Subscriptions coupons ads UX"
+      ],
+      "acceptanceCriteria": "Complete subscriptions coupons ads ux functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-018",
+      "title": "Reviews credentials verification UX",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-017"
+      ],
+      "scope": [
+        "Reviews credentials verification UX"
+      ],
+      "acceptanceCriteria": "Complete reviews credentials verification ux functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-019",
+      "title": "Accessibility localization",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Experiences",
+      "dependsOn": [
+        "GD-018"
+      ],
+      "scope": [
+        "Accessibility localization"
+      ],
+      "acceptanceCriteria": "Complete accessibility localization functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-020",
+      "title": "Old Salt avatar and metadata",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Old Salt",
+      "dependsOn": [
+        "GD-019"
+      ],
+      "scope": [
+        "Old Salt avatar and metadata"
+      ],
+      "acceptanceCriteria": "Complete old salt avatar and metadata functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-021",
+      "title": "Old Salt conversational UX",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Old Salt",
+      "dependsOn": [
+        "GD-020"
+      ],
+      "scope": [
+        "Old Salt conversational UX"
+      ],
+      "acceptanceCriteria": "Complete old salt conversational ux functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-022",
+      "title": "Vessel context consent",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Old Salt",
+      "dependsOn": [
+        "GD-021"
+      ],
+      "scope": [
+        "Vessel context consent"
+      ],
+      "acceptanceCriteria": "Complete vessel context consent functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-023",
+      "title": "Sourced marine provider explanations",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Old Salt",
+      "dependsOn": [
+        "GD-022"
+      ],
+      "scope": [
+        "Sourced marine provider explanations"
+      ],
+      "acceptanceCriteria": "Complete sourced marine provider explanations functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-024",
+      "title": "AI request parity tests",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Old Salt",
+      "dependsOn": [
+        "GD-023"
+      ],
+      "scope": [
+        "AI request parity tests"
+      ],
+      "acceptanceCriteria": "Complete ai request parity tests functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-025",
+      "title": "Safety and availability checks",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Old Salt",
+      "dependsOn": [
+        "GD-024"
+      ],
+      "scope": [
+        "Safety and availability checks"
+      ],
+      "acceptanceCriteria": "Complete safety and availability checks functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-026",
+      "title": "Conversational conversion experiment analytics",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Old Salt",
+      "dependsOn": [
+        "GD-025"
+      ],
+      "scope": [
+        "Conversational conversion experiment analytics"
+      ],
+      "acceptanceCriteria": "Complete conversational conversion experiment analytics functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-027",
+      "title": "Podcast CMS RSS",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Podcast",
+      "dependsOn": [
+        "GD-026"
+      ],
+      "scope": [
+        "Podcast CMS RSS"
+      ],
+      "acceptanceCriteria": "Complete podcast cms rss functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-028",
+      "title": "Persistent web playback",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Podcast",
+      "dependsOn": [
+        "GD-027"
+      ],
+      "scope": [
+        "Persistent web playback"
+      ],
+      "acceptanceCriteria": "Complete persistent web playback functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-029",
+      "title": "Native background playback",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Podcast",
+      "dependsOn": [
+        "GD-028"
+      ],
+      "scope": [
+        "Native background playback"
+      ],
+      "acceptanceCriteria": "Complete native background playback functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-030",
+      "title": "Transcripts search sponsorship",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Podcast",
+      "dependsOn": [
+        "GD-029"
+      ],
+      "scope": [
+        "Transcripts search sponsorship"
+      ],
+      "acceptanceCriteria": "Complete transcripts search sponsorship functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-031",
+      "title": "Podcast attribution analytics",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Podcast",
+      "dependsOn": [
+        "GD-030"
+      ],
+      "scope": [
+        "Podcast attribution analytics"
+      ],
+      "acceptanceCriteria": "Complete podcast attribution analytics functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-032",
+      "title": "Expo React Native foundation",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Mobile & launch",
+      "dependsOn": [
+        "GD-031"
+      ],
+      "scope": [
+        "Expo React Native foundation"
+      ],
+      "acceptanceCriteria": "Complete expo react native foundation functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-033",
+      "title": "Push deep links offline sync",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Mobile & launch",
+      "dependsOn": [
+        "GD-032"
+      ],
+      "scope": [
+        "Push deep links offline sync"
+      ],
+      "acceptanceCriteria": "Complete push deep links offline sync functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-034",
+      "title": "End-to-end web and mobile workflows",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Mobile & launch",
+      "dependsOn": [
+        "GD-033"
+      ],
+      "scope": [
+        "End-to-end web and mobile workflows"
+      ],
+      "acceptanceCriteria": "Complete end-to-end web and mobile workflows functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-035",
+      "title": "Privacy trust compliance",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Mobile & launch",
+      "dependsOn": [
+        "GD-034"
+      ],
+      "scope": [
+        "Privacy trust compliance"
+      ],
+      "acceptanceCriteria": "Complete privacy trust compliance functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-036",
+      "title": "App store release packaging",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Mobile & launch",
+      "dependsOn": [
+        "GD-035"
+      ],
+      "scope": [
+        "App store release packaging"
+      ],
+      "acceptanceCriteria": "Complete app store release packaging functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    },
+    {
+      "id": "GD-037",
+      "title": "Staging production activation",
+      "origin": "original",
+      "prs": [],
+      "priority": "P1",
+      "phase": "Mobile & launch",
+      "dependsOn": [
+        "GD-036"
+      ],
+      "scope": [
+        "Staging production activation"
+      ],
+      "acceptanceCriteria": "Complete staging production activation functionality, contract and authorization-negative tests, documentation, and recorded acceptance evidence.",
+      "verification": [
+        "Automated tests and acceptance evidence",
+        "Regression tests"
+      ],
+      "contributingPrs": [],
+      "externalDependencies": [],
+      "externalPrerequisites": []
+    }
+  ],
+  "pullRequests": []
+}
