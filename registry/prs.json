@@ -30,14 +30,9 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [
-        {
-          "repository": "neophilism/Services-Marketplace-Engine",
-          "unitId": "SME-067"
-        }
-      ],
+      "externalDependencies": [],
       "externalPrerequisites": [
-        "Engine production verified, all SME units accepted and tagged signed release; initial foundation PR alone exempt"
+        "Initial foundation PR only: explicitly authorized exception to Engine-first freeze."
       ]
     },
     {
@@ -59,8 +54,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-003",
@@ -81,8 +83,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-004",
@@ -103,8 +112,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-005",
@@ -125,8 +141,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-006",
@@ -147,8 +170,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-007",
@@ -169,8 +199,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-008",
@@ -191,8 +228,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-009",
@@ -213,8 +257,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-010",
@@ -235,8 +286,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-011",
@@ -257,8 +315,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-012",
@@ -279,8 +344,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-013",
@@ -301,8 +373,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-014",
@@ -323,8 +402,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-015",
@@ -345,8 +431,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-016",
@@ -367,8 +460,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-017",
@@ -389,8 +489,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-018",
@@ -411,8 +518,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-019",
@@ -433,8 +547,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-020",
@@ -455,8 +576,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-021",
@@ -477,8 +605,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-022",
@@ -499,8 +634,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-023",
@@ -521,8 +663,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-024",
@@ -543,8 +692,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-025",
@@ -565,8 +721,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-026",
@@ -587,8 +750,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-027",
@@ -609,8 +779,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-028",
@@ -631,8 +808,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-029",
@@ -653,8 +837,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-030",
@@ -675,8 +866,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-031",
@@ -697,8 +895,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-032",
@@ -719,8 +924,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-033",
@@ -741,8 +953,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-034",
@@ -763,8 +982,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-035",
@@ -785,8 +1011,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-036",
@@ -807,8 +1040,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     },
     {
       "id": "GD-037",
@@ -829,8 +1069,15 @@
         "Regression tests"
       ],
       "contributingPrs": [],
-      "externalDependencies": [],
-      "externalPrerequisites": []
+      "externalDependencies": [
+        {
+          "repository": "neophilism/Services-Marketplace-Engine",
+          "unitId": "SME-067"
+        }
+      ],
+      "externalPrerequisites": [
+        "ENGINE_NOT_COMPLETE: block this Get Docked unit until ALL 67 SME units are accepted, production verification passed and immutable signed engine release confirmed."
+      ]
     }
   ],
   "pullRequests": [
