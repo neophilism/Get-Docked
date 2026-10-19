@@ -15,7 +15,9 @@
       "id": "GD-001",
       "title": "App repository architecture and deferred plan",
       "origin": "original",
-      "prs": [],
+      "prs": [
+        1
+      ],
       "priority": "P0",
       "phase": "Foundation",
       "dependsOn": [],
@@ -831,5 +833,12 @@
       "externalPrerequisites": []
     }
   ],
-  "pullRequests": []
+  "pullRequests": [
+    {
+      "number": 1,
+      "unitId": "GD-001",
+      "state": "open",
+      "merged": false
+    }
+  ]
 }
