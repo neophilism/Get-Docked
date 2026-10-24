@@ -1,0 +1,11 @@
+name: Engine-first freeze
+on: [push, pull_request]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    permissions: {contents: read}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - run: git fetch origin main
+      - run: node scripts/guard-engine.mjs

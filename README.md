@@ -1,5 +1,5 @@
 # Get Docked
 
-Marine-services application built on the independently versioned Services Marketplace Engine.
+Marine services app for web, iPhone and Android, built on the Services Marketplace Engine.
 
-> **AGENT STOP / ENGINE-FIRST:** Only the initial Get Docked foundation PR is authorized until the Services Marketplace Engine is **100% complete and production-verified**. Do not start, implement, or open any subsequent Get Docked feature PRs. Work on the engine instead. The foundation PR will include authoritative `AGENTS.md`, the complete deferred roadmap, and an automated guard.
+> **STOP: ENGINE-FIRST DEVELOPMENT FREEZE.** The initial foundation PR is the only Get Docked work allowed before the engine is 100% complete, accepted, tested, production-verified and released. All agents must work in the engine until then. See `AGENTS.md`.
